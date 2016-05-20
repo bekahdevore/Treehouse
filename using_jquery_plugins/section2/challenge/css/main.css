@@ -350,6 +350,12 @@ footer {
   
 }
 
+.is-sticky .work {
+  background: #fff;
+  padding: 12px, 8;
+  margin: 0;
+}
+
 
 
 
