@@ -118,7 +118,13 @@
       <script src="js/slick/slick.min.js"></script>
       <script src="js/main.js"></script>
       <script>
-      $('.slides').slick();
+      $('.slides').slick({
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false, 
+        dots: true
+        });
       </script>
     </body>
 </html>
