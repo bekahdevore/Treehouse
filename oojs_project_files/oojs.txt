@@ -1,0 +1,18 @@
+Constructor functions: 
+	- Describes how an object should be created
+	- Create similar objects
+	- Each object created is known as an instance of the object type.
+
+Ex. 
+	
+	function Contact(name, email) {
+
+		this.name = name;
+		this.email = email;
+		this.sendEmail = function() {/* Do something */}
+
+	}
+
+	//New contact instance
+	var contact = new Contact("Bekah", "bekah@email.com")
+	var contact2 = new Contact("Dave", "dave@email.com")
