@@ -13,3 +13,23 @@ https://github.com/airbnb/javascript
 
 Great Font Combinations You Need to Try - Designmodo
 	http://designmodo.com/great-font-combinations/
+
+
+<ul>NODE.JS</ul>
+
+http://treehouse.github.io/installation-guides/
+
+http://nodejs.org/api/
+
+http://nodejs.org/api/documentation.html#documentation_stability_index
+
+http://nodejs.org/api/http.html#http_http_request_options_callback
+
+
+
+The Four P’s of Problem Solving
+
+1. Preparation - understand problem and think of a high level solution
+2. Plan - plan out solution
+3. Perform - perform what’s required in proposed solution
+4. Perfect - perfect the solution
