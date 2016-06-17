@@ -18,7 +18,6 @@ var request = http.get("http://teamtreehouse.com/" + username + ".json", functio
   response.on('end', function(){
     var profile = JSON.parse(body);
     printMessage(username, profile.badges.length, profile.points.JavaScript)
-
   });
   //Parse the data
   //Print the data
