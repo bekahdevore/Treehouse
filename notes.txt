@@ -33,3 +33,7 @@ The Four P’s of Problem Solving
 2. Plan - plan out solution
 3. Perform - perform what’s required in proposed solution
 4. Perfect - perfect the solution
+
+NPM
+-a package manager for JavaScript
+-

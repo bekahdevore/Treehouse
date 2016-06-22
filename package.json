@@ -1,0 +1,21 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekahdevore/treehouse.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bekahdevore/treehouse/issues"
+  },
+  "homepage": "https://github.com/bekahdevore/treehouse#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
