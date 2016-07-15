@@ -1,0 +1,25 @@
+Create front-end for App
+	Place to enter in how many
+		paragraphs
+		sentences
+
+	Place for output
+
+	Copy button (copies output text)
+
+
+
+
+Why do people leave?
+What do they stay?
+Money is draw, for younger driven more by botton line.
+
+Realistic options that are available
+	Virtual home training
+	Time to profitibility
+	Access to the pool of candidates 
+	Size of pool of candidates
+	
+
+
+

@@ -1,0 +1,55 @@
+Mongo Commands
+
+	show dbs - show databases
+	show collections 
+	db.post.find()
+
+	#Create New Databases:
+
+		use mongoBasics
+			db.post.insert({title: "horray!"})
+
+	#Update Posts:
+
+		db.posts.update({})
+
+		#Update Posts with specific authors
+
+				#Find author id's 
+
+					db.users.find({} ,{_id: true})
+
+				#Find post equal to author object id
+
+					db.posts.find({author: ObjectId("564cddw523424354")})
+
+					#Create new content (tag), update existing content (title).
+
+					db.posts.update({author: ObjectId("564cddw523424354")}, {$set:{tags: ['foo', 'bar', 'interesting'], title: "I'm updating the title!"}})
+
+		#Sort by title
+
+			db.posts.find({}, {title: true}).sort({title: 1})
+			#descended = -1
+
+		#Paginated
+			Pagination formula: limit = number of records on each page, skip = number of records on each page * page number - 1
+
+			So, with 5 results per page:
+			page 1: limit = 5, skip = 0
+			page 2: limit = 5, skip = 5
+			page 3: limit = 5, skip = 10
+			etc...
+
+		#Language Drivers and Sharding
+			
+			MongoDB Drivers: https://docs.mongodb.org/ecosystem/drivers/
+			
+			Sharding in Mongo: https://docs.mongodb.org/manual/sharding/
+
+			#Sharding: spreading data across machines
+Notes
+
+	documents are individual records and can be organized as collections
+
+	Think of collections as similar to tables in relational databases
